@@ -21,7 +21,7 @@ const Header = () => {
                         >
                             <span className="text-[20px] leading-none cursor-pointer"> {isOpen ? 'X' : '☰'}</span>
                         </button>
-                        <Link href="/"><span className="text-white text-lg md:text-2xl font-semibold select-none"> Sneaky </span> </Link>
+                        <Link href="/"><span className="text-white text-lg md:text-2xl font-semibold select-none"> Mix Store </span> </Link>
 
 
                         <div

@@ -32,8 +32,9 @@ export default function Main() {
           ТОП-5 товары недели
         </p>
         <hr className="my-3 md:mb-14 text-gray-400" />
-        <div className="grid gap-2 md:gap-4 grid-cols-2 md:grid-cols-4 mb-10 md:mb-16">
+        <div className="grid space-y-5 gap-2 md:gap-4 grid-cols-2 sm:grid-cols-3 mb-10 ">
           {/** Card */}
+          <TopProductsCard />
           <TopProductsCard />
           <TopProductsCard />
           <TopProductsCard />

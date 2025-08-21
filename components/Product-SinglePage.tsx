@@ -12,11 +12,11 @@ const ProductSinglePage = () => {
     ]
     return (
         <div className="">
-            <Slider images={productImages} alt="Product image" className="w-full md:w-[40%]" />
+            <Slider images={productImages} alt="Product image" className="w-full" />
             {/* Add more content here later */}
 
 
-            <div className="md:w-[40%] mx-auto">
+            <div className="">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-8 md:mb-4">Adidas Gazelle - for men </h1>
                 <div className="mt-2 mb-4">
                     <span className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">Цена: 150&nbsp;€</span>

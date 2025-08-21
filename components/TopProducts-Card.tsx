@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 function TopProductsCard() {
     return (
-        <div className='w-auto border p-2 mx-auto'>
+        <div className=''>
             <div className=' hover:cursor-pointer'>
                 <Link href="/product/1">
                     <Image
@@ -18,9 +18,9 @@ function TopProductsCard() {
                 </Link>
             </div>
 
-            <div className='flex justify-between mt-3 md:mt-6 md:py-2 text-sm sm:text-lg md:text-xl'>
-                <p className='md:text-2xl'> Nike Air Max </p>
-                <p className='border rounded-lg px-1 md:px-2 md:py-1 bg-gray-900 text-white'> 150€ </p>
+            <div className='text-sm sm:text-xl  mt-2 md:mt-3 text-gray-600 md:text-gray-800  '>
+                <p> Nike Air Max - Exclusive design only </p>
+                <p> 150€ </p>
             </div>
         </div>
     )

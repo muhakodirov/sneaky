@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <SidebarProvider>
           <Header />
-          <main className="p-4 min-h-screen mt-25 md:mt-36"> {children} </main>
+          <main className="p-4 min-h-screen mt-25 md:mt-36 md:w-[40%] md:mx-auto"> {children} </main>
           <Footer />
         </SidebarProvider>
       </body>
